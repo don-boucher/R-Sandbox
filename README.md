@@ -15,5 +15,5 @@ I am assuming an Arch Linux environment.
 ### Usage
 | Target             | Incantation                  |
 |--------------------|------------------------------|
-| Launch JupyterLab               | `jupyter lab --no-browser`             |
-| Launch JupyterLab in background               | `jupyter lab`             |
+| Launch JupyterLab               | `jupyter lab`             |
+| Launch JupyterLab in background               | `jupyter lab --no-browser`             |
