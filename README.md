@@ -18,4 +18,4 @@ Launch commands from sandbox/.
 | repl               | `R`             |
 | Launch JupyterLab               | `jupyter lab`             |
 | Launch JupyterLab in background               | `jupyter lab --no-browser`             |
-| Launch JupyterLab in background               | `R -e "rmarkdown::render(input = 'hello_world.Rmd', output_dir = 'docs/')"`             |  
+| Launch JupyterLab in background               | `R -e "rmarkdown::render(input = 'hello_world.Rmd', output_dir = '../docs/')"`             |  
