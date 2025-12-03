@@ -11,7 +11,9 @@
 | Register the kernel with Jupyter                                  | From sandbox/: `R -e 'IRkernel::installspec()'`                                                                               |
 
 ### Usage
+Launch commands from sandbox/.
 | Target             | Incantation                  |
 |--------------------|------------------------------|
+| repl               | `R`             |
 | Launch JupyterLab               | `jupyter lab`             |
 | Launch JupyterLab in background               | `jupyter lab --no-browser`             |
