@@ -1,6 +1,4 @@
 # R Sandbox
-## Prerequisites
-I am assuming an Arch Linux environment.
 ## Quickstart
 ### Install
 
