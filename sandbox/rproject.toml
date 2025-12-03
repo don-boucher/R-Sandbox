@@ -12,5 +12,4 @@ dependencies = [
     "rmarkdown",
     "knitr",
     "ggplot2",
-    "swirl",
 ]
