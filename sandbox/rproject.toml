@@ -8,5 +8,8 @@ repositories = [
 
 dependencies = [
     "IRkernel",
+    "languageserver",
+    "rmarkdown",
+    "knitr",
     "ggplot2",
 ]

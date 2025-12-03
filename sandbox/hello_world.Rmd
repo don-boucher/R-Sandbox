@@ -1,0 +1,52 @@
+---
+title: "Hello World"
+output: html_document
+---
+
+# Introduction
+
+This is a sample R Markdown document demonstrating how to combine text, R code, and output into a single report. R Markdown allows for reproducible research by embedding code directly within the narrative.
+
+## Markdown Basics
+
+You can use various Markdown syntax for formatting:
+
+*   **Bold text** with double asterisks.
+*   *Italic text* with single asterisks or underscores.
+*   Code snippets like `print("Hello, R Markdown!")` with backticks.
+
+## R Code Chunk
+
+Here's an R code chunk.
+```{r}
+print("hello world")
+```
+
+Using `echo=FALSE` option in the chunk header means the R code itself will not be displayed in the output, only its results.
+```{r echo=FALSE}
+print("hello world")
+```
+
+Here's a plot.
+```{r}
+# Load the ggplot2 library
+library(ggplot2)
+
+# Create a sample data frame
+data <- data.frame(
+  x_value = c(1, 2, 3, 4, 5, 6, 7, 8, 9, 10),
+  y_value = c(2, 4, 5, 4, 6, 7, 8, 9, 10, 12),
+  category = factor(c("A", "A", "B", "A", "B", "A", "B", "B", "A", "B"))
+)
+
+# Create the scatter plot
+ggplot(data, aes(x = x_value, y = y_value, color = category)) +
+  geom_point(size = 3) + # Add points and set their size
+  labs(
+    title = "Scatter Plot of X vs Y by Category",
+    x = "X-axis Label",
+    y = "Y-axis Label",
+    color = "Category" # Legend title for color
+  ) +
+  theme_minimal() # Use a minimalist theme
+```
